@@ -1,0 +1,127 @@
+How to do in Docker :
+
+Steps to be followed:
+
+1. Run the maven command,"mvn clean install" from the location where pom.xml is present to generate a fat jar inside the target folder.
+
+2. write instruction to docker inside a file with the name dockerfile to generate  a docker image . 
+	Sample Dockerfile (file content) :
+	
+	# Start with a base image containing java runtime 
+	FROM openjdk:17-jdk-slim
+	
+	#Information around who maintain the image
+	MAINTAINER eazybytes.com
+	
+	#Add the application's jar to the conatiner
+	COPY target/accounts-0.0.1-SNAPSHOT.jar accounts-0.0.1-SNAPSHOT.jar
+	
+	#exacute the application
+	ENTRYPOINT["java","-jar","/accounts-0.0.1-SNAPSHOT.jar"]
+	
+3. Execute the docker command "docker build -t easybytes/accounts:s4" from the location where Dockerfile is present. This will genetare the docker image based on the tag name provided.
+
+4. Execute the docker command "docker run -p 8080:8080 easybytes/accounts:s4". this will start the docker container base on docker image and port mapping provided. 
+
+===============================================================================================================================================================
+
+BuildPack:
+Cloud native buildpack offer an alternative approch to dockerfile, prioritizing consistency, security, performance, and governance. 
+with buildpack developes can automatically generate production ready OCI image from there application source code without the need to write a Dockerfile. 
+
+Sample pom.xml config:
+
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+					<configuration>
+						<image>
+							<name>easybytes/${project.artifectid}:s4</name>
+						</image>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
+
+Steps to be followed: 
+
+1. Add the configurations like mentioned as above inside the pom.xml. Make sure to pass the image name details. 
+2. Run the maven command "mvn spring-boot:build-image" from the location where pom.xml is present to generate the docker image without the need of dockerfile . 
+3. Execute the docker command "docker run -p 8090:8090 easybytes/loans:s4".this will start the docker container based on the docker image name and port mapping provided. 
+
+===============================================================================================================================================================
+
+Jib to generate dockerfile (google):
+Google jib offer an alternative approch to dockerfile, prioritizing consistency, security, performance, and governance. 
+with jib developes can automatically generate production ready OCI image from there application source code without the need to write a Dockerfile and even local docker setup. 
+
+Sample Pom.xml config: 
+
+		<build>
+			<plugins>
+			  <plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.3</version>
+				<configuration>
+				  <to>
+					<image>myimage</image>
+				  </to>
+				</configuration>
+			  </plugin>
+			</plugins>
+		</build>
+		
+Steps to be followed: 		
+
+1. Add the configurations like mentioned as above inside the pom.xml. Make sure to pass the image name details. 
+2. Run the maven command "mvn compiler jib:dockerbuild" from the location where pom.xml is present to generate the docker image without the need of dockerfile . 
+3. Execute the docker command "docker run -p 9000:9000 easybytes/cards:s4".this will start the docker container based on the docker image name and port mapping provided. 
+
+===========================================================================================================================
+
+Docker Composed: 
+Docker Compose is a tool for defining and running multi-container applications.It is the key to unlocking a streamlined and efficient development and deployment experience.
+Compose works in all environments; production, staging, development, testing, as well as CI workflows. It also has commands for managing the whole lifecycle of your application:
+
+Start, stop, and rebuild services
+View the status of running services
+Stream the log output of running services
+Run a one-off command on a service
+
+============================================================================================================================
+Important Docker Commands:
+docker images                                   	: To list all the docker images present in the docker server. 
+docker image inspact[image-id]						: To display detailed image information for a given image id.
+docker image rm [image-id]							: To remove one or more image for a given image ids.
+docker build .-t [image-name]						: To generate a docker image based on dockerfile.
+docker run -p[hostport]:[containerport][image_name] : To start docker conatiner based on given image.
+docker ps											: To show all running container. 
+docker ps -a 										: To show all container including running and stoped.
+docker container start [container_id]				: To start one or more stoped container. 
+docker container pause [container_id]				: To pause all processes within one or more container.
+docker container unpause [container_id]				: To resume/unpause all processe within one or more container.
+docker container stop [container_id]				: To stop one or more container.
+docker container kill [container_id]				: To kill one or more running container instantly.
+docker container restart [container_id]				: To restart one or more container 
+docker container inspact [container_id]				: To inspact all the details for given comtainer id. 
+docker container logs [container_id]				: To fetch the log of given container id. 
+docker conatiner logs -f [container_id]				: To follow log output of a given conatiner id.
+docker rm [conatiner-id]							: To remobe one or more container based on container id.
+docker container prune								: To removeall stopped containers.
+docker image push [container_registry]				: To push an image from a container registry.
+docker image pull [container_registry/username:tag] : To pull an image from container registry.
+docker image prune 									: To remove all unused image.
+docker container stats								: To show all containber statistics like CPU,Memory,I/O usage.
+Docker system prune 								: Remove stopped containers, dangling images, and unused network, volumes and cache .
+docker rim [image-id]								: To remove one or more images based on image ids.
+docker login -u[username]							: To login in to docker hub container registry.
+docker logout										: To login out from docker hub container registry.
+docker history [image-name]							: Display the intermediate layer and commands that were executed when building the image.
+docker exec -it[container-id] sh					: To open shell inside a running container and execute commands 
+docker compose up 									: To create and start containers based on given docker compose file 
+docker compose down 								: To stop and remove containers for service defined inthe compose file 
+
+

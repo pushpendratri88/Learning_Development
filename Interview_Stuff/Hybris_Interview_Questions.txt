@@ -1,0 +1,211 @@
+1. Payment Authorization and payment Capture 
+2. how to handle if order has been created but cannot be completed because of something . how will you handle this situation to complete the order 
+3. Difference B/W Business process and Workflow 
+4. how can we get the next scheduled time for cronjob
+5. if we have single component and where we want to display 3 image (33+33+33 %). each image have different link and also text on that .How will be able to handle it .
+6. What is ERP system and purpose . 
+7. how cart gets converted to order .
+8. how can we export the data from item type .
+9. how can we skip any step from checkout flow .
+10. what is Hook.
+11. partof attribute in Items.xml
+12. what is catalog aware and example 
+13. Use of Alias in spring bean 
+14. How hybris load homepage
+15. what you did in spring.xml apart from bean register
+16. Spring security 
+17. Spring Integration
+18. what you keep in your mind while doing data modeling changes 
+19. when we have multiple request then how hubris will serve you the singleton object . it should have waiting thread or serves at once 
+20. how delivery mode will be loaded in checkout process.
+21.  solr one phase and Two phase
+22. What is likes and dislikes of hybris
+23. Which hybris version and spring version used 
+
+##############Tech Mahindra ##############
+24. Fraud Compliance (how do we avoid fraud in B2B and B2C Sale)
+25. Tax in different countries (How Tax is getting determine and calculation)
+26. Payment (How Payment is done , what are the types of payment, How Payments are validated, what are the payment gateway used and full payment flow  )
+27. Returns (How the returns works in B2B and B2C ,  Return Flow , how the refund will Happen and how will amount will be back to account )
+28. Promotion (How the Promotion works in hybris system, How to define Promotion and How and when Promotion Applies)
+29. Discount (How discount works ,How and When Discounts Applies )
+====================
+31. Stock management  wharehouse Management .
+32. Difference between single step checkout process and multistep checkout process
+33. Cart merging strategy understanding  
+34. OCC Architecture full understanding 
+35. save Cart in Hybris 
+36. PayPal Integration (https://hybristech.wordpress.com/2017/05/01/step-by-step-paypal-integration-with-hybris-e-commerce-suite-payment-getway-integration-with-hybris/)
+37. Cart removel cronjob understanding 
+
+##############Boeing##############
+38. If any object is defined as singleton and thousands of user accessing that how the request will be process.
+39. If any query is taking time . How do you increase the performance (by using the index in items.xml)
+40. What is  Conposttype
+41. What if CSV(hotfolder) file has the single row in which 5 colomn  has product data and another 5 colomn has b2bunit data .will it be working?
+42. How to setup interval for file pickup in hotfolder. (There is configuration in hotfolder XML )
+43. Difference between streem and parallel stream 
+44. Arraylist , linked list . Hasmap implementation.
+45. Suppose we have product.java  and we need to add it to set. Product code and marchandise together will be unique . Then how will store in set.
+46. Pdp page loading is slow how will you increase the performance.
+
+##############Accenture##############
+47. Collection heirerchy
+48. Exception heirarchy
+49. Difference list List and set
+50. Map internal implementation
+51. Set internal implementation
+52. What is Error and Exception
+53. What is the cause of outofmemoryerror and can resolve this issue .
+54. What design patterns jdk used and where . Example 
+55. Where prototype design patterns used in hybris example (facades beans)
+56. Subscription order in hybris  study
+57. How index property use default provider or handler ex name and code 
+58. where is spring  AOP used in Hybris 
+59. How strategy works in hybris, How can we define  new strategy  and how to override the existing  strategy .
+60. What is Hook and its requirement .
+https://www.linkedin.com/pulse/sap-commerce-clouds-method-hooks-mahesh-ramachandran/
+
+##############Samsung interview ##############
+61. How to update system on running server(concept of zero  downtime )
+62. Existing value provider. (springELValueProvider, productPriceValueProvider, productUrlValueProvider)
+63. Multi tenet in hybris.  How to use existing example. 
+64. How to run cronjob in specific  node in cloud.
+65. How to achieve storefront by occ and backoffce by wcms
+66. How to enable local language like Gujarati hybris // add lang in  Internationalization
+67. what is personalization 
+68. what is Adaptive search
+69. what is Search Profile
+
+##########Valtech##############
+70. Write a Query using  item and  collections 
+71. Write a Query using  item and  enum
+72. Write a Query using  item and  Map Type
+73. How session is maintained while one API Call to other API call in OCC.
+74. Life cycle of business process
+75. What is catalog aware item type and how can we create new catalog aware type. 
+76. how to run script through cronjob
+77. Can Dependency Injection is possible while Singletone type is injected to prototype and vice versa.
+78. How to optimize performance if 4 lakhs of data getting from single query
+79. How session or token is maintained in distributed system when we work with OCC. Suppose token is generate  from one of the node and that stop working . then how another node will handle the request . 
+
+##########Fajruddin############## 
+79. What is nullDecorator in hybris.
+80. What is partof="true" and redeclare="true" in hybris.
+81. What is Constraint how we are going to use it
+82. What is deployment table
+83. what is bean alias and why is it used
+84. indexing in xml
+85. enumtype with translator
+86. checkout flow
+87. OCC every annotation and flow
+88. flexible search for collection type
+89. flexible search Map type 
+90. What are the module you have work
+https://www.helphybris.com/2017/11/catalog-aware-item-types-custom-properties-hybris.html#google_vignette
+https://hybristech.wordpress.com/2017/05/01/how-to-perform-a-cron-job/
+https://www.expertshybris.com/hybris-tutorial/hybris-data-model
+https://www.expertshybris.com/hybris-tutorial/hybris-data-model
+
+91. What is roles and responsibility in current project.
+92. What is dependency
+93. What is deployment tag
+94. If we not use deployment tag where data will store
+95. Cronjobs with abatable 
+96. Two fetch indexing in solr
+97. Why we are using text field in solr instead of string 
+98. How to represent bigger size string in item.xml
+99. Impex mode
+100. Part of attribute.
+101. How to lock Initiation in hac.
+ https://www.helphybris.com/2018/02/block-prevent-system-initialization-production-hybris.html#:~:text=Lock%20the%20system%20initialization%3A&text=To%20lock%20the%20system%20for,file%20and%20rebuild%20your%20system.
+102. Resource annotation  
+103. Diff between Path and query param
+104.Write query for cart cart entry and product join 
+105. How cronjobs and Tigger works.
+106.How run impex during server start 
+107. Solr schema.
+108. Solr tokenizer for text type.
+109. Occ authenticatin2
+110. Promotion engg
+111. Business process.
+112. Different b2n autoware and resource.
+113. Spring bean lifecycle 
+114. Impex batch mode
+115. Java stream code 
+116. Custom Cache framework 
+117. annotation:
+       @Controller 
+       @RequestMapping(value = "/{baseSiteId}/builderio")
+       @SecurePortalUnauthenticatedAccess
+       @ResponseBody
+118. Difference between Collection and relation? 
+119. Dynamic attribute in an item type.
+120. How to declare an item?
+121. How to extend an item?
+122. Structure of items.xml.
+123. Various tags in items.xml.
+124. Difference between type and item.
+125. How to ensure that some particular attribute is not added to DB through persistence. Something to do with dynamic attribute.
+126. Catalog vs Catalog version?
+127. How many active catalogs are there?
+128. How to make more than one active catalog?
+129. Architecture of cockpit.
+130. What are interceptor?
+131. How many types of interceptor?
+132. What is modelcontext?
+133. Difference between save() and saveall() in modelservice.
+134. Entire hierarchy of catalog. Whatever that means!
+135. Relation between cronjob and trigger.
+136. Flexiquery.getbyexample() or something like that.
+	Impex structure.
+	Lazy loading in hybris.
+	Price Groups in Hybris
+137. What if the delimiter in impex file i.e.semicolon(;) is changed to something else. How can this be done?
+138. How can you do product modeling (adding new attributes)?
+139. What are the steps of Ant build (Twisted way)?
+140. How build framework works?
+141. What is dynamic attribute?
+142. How can you fetch a dynamic attribute
+143. What are the benefits of dynamic attribute
+144. How can you create cron jobs?
+145. How can you configure solr?
+146. Challenges you faced on your project and how you resolve those challenge?
+147. How can you specifies dependencies of project?
+148. Where can you add required extensions?
+149. How can you create extensions?
+150. What are the benefits and drawbacks of Hybris?
+151. How can you create your own service?
+152. What is the use of populator and convertor?
+153. What is interceptor?
+154. Have work on any integration of hybris to any other ERP or third party .
+155. What is workflow in Hybris.
+156. Suppose you need to create a own store(website) then what will your steps.
+157. Suppose you have create a store by extending a hybris default base store then what common functionality will be in both.
+158. Question on Hybris Solr.
+159. Suppose you are creating a product and you have to need a media file associated with product then how you can do it.
+160. Question on Hybris data Model.
+161. What is a Hybris Cockpit Frameowrk and hMC?
+162. What is a workflow in Hybris?
+163. Explain a high level steps to integrate a search engine (Solr, Endeca, GCS etc) with Hybris.
+164. How to configure a cronjob in Hybris?
+165. Explain How to Run the Hybris in cluster mode?
+166. Explain Hybris Caching mechanism in persistent layer?
+167. Explain the Hybris Data Model.
+168. Explain the FlexibleSearch and its usage? How is it related to SQL?
+169. What is Extension and how can you create extension.
+170. Can you customize ANT EXTGEN . If Yes then How ,Where need to change.
+171. What is ANT Command to generated your own website.
+172. About Dynamic attribute and their handler.
+173. Difference between Hybris latest version to earlier version .
+
+##########NTT Data ##############
+
+174. What is Oauth2 .
+175. Difference between Oauth2 VS Basic Auth 
+176. What is SSO (Single Sign Info )
+177. Hybris use design patterns
+178. how to migrate the version of hybris 
+
+
+

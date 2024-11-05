@@ -1,0 +1,73 @@
+1. Kindly give brief idea about JAVA memory model.
+2. What is the difference between normal REST service and Restful WS (Web Service)?
+3. What are the different types of Http methods and their differences ?
+4. What is DDOS(denial of service ) attack and how will we prevent from this in our Applications ?
+5. What is Method Reference and Functional Interface ?
+6. Questions Related to JAVA Design Patterns
+7. How will you secure your API’s ?
+8. Internal Working of HashMap and HashSet?
+9. How will you enable cache in spring boot microservices project , or what all annotation you can use to implement the same ?
+10. Please describe , how Kafka works and what is consumer groups while using Kafka ?
+11. Please tell us about what all design patterns you have used to design your microservices application ? Mainly
+	i) Circuit Breaker
+	ii) SAGA
+	iii) CQRS
+	iv) Two phase commit
+12. what is database sharding ?
+13. What is apache spark ? use of apache spark with spring boot application ?
+14. what is webflux and mono in spring boot ?
+15. How will you create custom immutable class ? follow up question can be as String is immutable class can you prove that with some code snippet ?
+16. What are the time/space complexities for collection classes and name their internal underline data structure?
+17. How will you create custom annotation ?
+18. What & why do we use Kubernetes and tell me about its cluster , Node , POD etc. ?
+19. How can you prevent cyclic dependency in spring ?
+20. Is this possiable to decrease the size of a docker image ?
+21. How can we break singleton class ? what is single object creation strategy ?
+22. What is deep and shallow cloning and give the use of Cloanable interface ?
+23. How will you make two ambiguity URL working in spring boot without changing the http method type and no change will be accepted in URL as well ?
+24. What is your application deployment structure ?
+25. Code Review process
+26. Performance tuning of your application
+27. How to deal with CSRF attack?
+28. Write a program to find the duplicate characters in list of string . Only java stream will be accepted ?
+29. How does Executor make or check , number of threads are active or dead , in other word what is internal working of thread pool executor ?
+30. Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in the given expression.
+ANS - Input: exp = “[()]{}{[()()]()}”
+Output: Balanced
+Explanation: all the brackets are well-formed
+
+Input: exp = “[(])”
+Output: Not Balanced
+Explanation: 1 and 4 brackets are not balanced because
+there is a closing ‘]’ before the closing ‘(‘
+
+public class CodingProblem13 {
+ public static void main(String[] args) {
+  String inputString = "[(]{}{[()()]()}";//Need to check whether this string is balance parenthesis string
+  System.out.println("Result:::"+isBalancedInput(inputString));
+ }
+ private static String  isBalancedInput(String input) {
+
+  //Stack<Character> stack  =  new Stack<>();//stack is synchronized so we can use Deque also 
+  Deque<Character> stack  =new  ArrayDeque<>();
+  for(int i=0;i<input.length();i++) {
+   if(!(input.charAt(i) == '}' || input.charAt(i) == ']' || input.charAt(i) == ')') ){
+    stack.push(input.charAt(i));
+   }
+    
+    if((input.charAt(i) == '}' || input.charAt(i) == ']' || input.charAt(i) == ')')) {
+     if(stack.isEmpty())
+      return  "Not Balanced ";
+     char top = stack.pop();
+     
+       // Check if the popped opening bracket matches the current closing bracket
+              if ((input.charAt(i)  == ')' && top != '(') ||
+                  (input.charAt(i)  == ']' && top != '[') ||
+                  (input.charAt(i)  == '}' && top != '{')) {
+               return  "Not Balanced ";
+              }
+    }
+  }
+  return stack.isEmpty()  ? "Balanced" : "Not Balanced ";
+ }
+}

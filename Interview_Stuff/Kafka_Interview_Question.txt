@@ -1,0 +1,42 @@
+Kafka interview questions : 
+
+1. What is Apache Kafka, and what are its main components?
+2. Explain Kafka’s architecture briefly.
+3. What is a Kafka broker?
+4. What is a topic in Kafka?
+5. What is the purpose of partitions in Kafka?
+6. Explain the role of ZooKeeper in Kafka.
+7. What are producers and consumers in Kafka?
+8. Describe a Kafka cluster.
+9. What are consumer groups?
+10. How does Kafka ensure message ordering?
+11. What is an offset in Kafka?
+12. How does Kafka handle data retention?
+13. Explain "at least once" and "exactly once" delivery in Kafka.
+14. What is Kafka Streams?
+15. How does Kafka ensure fault tolerance?
+16. What is log compaction?
+17. Explain replication in Kafka.
+18. What is an ISR (In-Sync Replica)?
+19. How does leader election work in Kafka?
+20. How do partitions help in Kafka scaling?
+21. What is Kafka Connect?
+22. How does Kafka ensure message durability?
+23. What’s Kafka’s role in stream processing?
+24. How is Kafka different from traditional messaging systems?
+25. What is the replication factor?
+26. How do leaders and followers work in Kafka replication?
+27. How do consumers read data in Kafka?
+28. What are producer acknowledgments?
+29. What is the transaction API in Kafka?
+30. Explain Kafka’s "exactly once" semantics.
+31. How does Kafka manage backpressure?
+32. What is linger.ms in Kafka producers?
+33. How does Kafka handle message compression?
+34. What is batch.size in producers?
+35. How does Kafka handle consumer offsets?
+36. What is auto.offset.reset in Kafka consumers?
+37. How do rebalances work in consumer groups?
+38. What is the purpose of the Schema Registry?
+39. How does Kafka handle topic deletion?
+40. Explain commitSync() vs commitAsync() in Kafka consumers.

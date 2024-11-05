@@ -1,0 +1,34 @@
+#Kafka Commands for Local: 
+
+zookeeper-server-start.bat ..\..\config\zookeeper.properties
+
+kafka-server-start.bat ..\..\config\server.properties
+
+kafka-topics.bat --create --topic my-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 3
+
+kafka-console-producer.bat --broker-list localhost:9092 --topic my-topic
+
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my-topic --from-beginning
+
+Flow Diagram - https://excalidraw.com/#json=Z2whpghZiuDyv7bRCgyqD,kLzHpL2BimA-tcEBmFxX5w
+
+# Create Topics
+
+kafka-topics.bat --create --topic order --bootstrap-server localhost:9092 --replication-factor 1 --partitions 2
+
+kafka-topics.bat --create --topic reverse-order --bootstrap-server localhost:9092 --replication-factor 1 --partitions 2
+
+kafka-topics.bat --create --topic payment --bootstrap-server localhost:9092 --replication-factor 1 --partitions 2
+
+kafka-topics.bat --create --topic reversed-payment --bootstrap-server localhost:9092 --replication-factor 1 --partitions 2
+
+kafka-topics.bat --create --topic new-stock --bootstrap-server localhost:9092 --replication-factor 1 --partitions 2
+
+kafka-topics.bat --create --topic reverse-stock --bootstrap-server localhost:9092 --replication-factor 1 --partitions 2
+
+
+# Get All Topics in Kafka 
+kafka-topics.bat --list --bootstrap-server localhost:9092
+
+# Get All Consumer Groups in Kafka 
+kafka-consumer-groups.bat --list --bootstrap-server localhost:9092

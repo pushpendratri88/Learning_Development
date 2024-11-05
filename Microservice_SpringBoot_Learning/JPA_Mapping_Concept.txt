@@ -1,0 +1,103 @@
+JPA Mapping Concept
+
+
+@OneToOne : We'll use a scenario with Department(child) and Manager entities where each Department has one Manager(Parent), and each Manager is associated with only one Department.
+	Unidirectional -while having undirectional mapping below anotation is maintained in One side but no mapping entry should be there in other One side 
+					while having unidirectional with @OnetoOne mapping we should use @JoinColumn at One side which is telling that data can be fetched from one side only. 
+					In this scanario Department may not have the manager but manager always have Department.Here Child object will have forign key column in it . 
+		Ex: 
+			public class Department {
+			@OneToOne
+			@JoinColumn(name = "manager_id")
+			private Manager manager;
+			}
+			
+			
+	Bidirectional - while having Bidirectional mapping annotation is maintained in both the side as below 
+					while having Bidirectional with @OnetoOne mapping we should mappedby at one side  and @JoinColumn other one side  
+		Ex: 
+		One Side (child) :-
+			public class Department {
+			@OneToOne(mappedBy = "department", cascade = CascadeType.ALL)
+			private Manager manager;
+			}
+		One Side (Parent) :-
+			public class Manager {
+			@OneToOne
+			@JoinColumn(name = "department_id")
+			private Department department;
+			}
+@OneToMany : 
+	Unidirectional - while having undirectional mapping below anotation is maintained in One side but no mapping entry should be there in many side 
+					 while having unidirectional with @OnetoMany mapping we should use @JoinColumn at many side 
+		Ex:
+			public class Department {
+			
+			@OneToMany
+			@JoinColumn(name = "department_id")
+			private List<Employee> employees;
+			}
+		
+		
+	Bidirectional - while having Bidirectional mapping annotation is maintained in both the side as below 
+					while having Bidirectional with @OnetoMany mapping we should use mappedby at one side  and @JoinColumn many side 
+		Ex: 
+		One Side :-
+			public class Department {
+			@OneToMany(mappedBy = "department", cascade = CascadeType.ALL)
+			private List<Employee> employees;
+			}
+		Many Side :- 
+			public class Employee {
+			 @ManyToOne
+			 @JoinColumn(name = "department_id")
+			 private Department department;
+			 }
+	
+@ManyToMany : 
+	Unidirectional -
+		Ex: 
+		Many Side :-
+			public class Student {
+			
+			@ManyToMany
+			@JoinTable(
+				name = "student_course",
+				joinColumns = @JoinColumn(name = "student_id"),
+				inverseJoinColumns = @JoinColumn(name = "course_id")
+			)
+			private Set<Course> courses;
+			}
+			
+	Bidirectional - 
+		Ex: 
+		Many Side :- 
+			public class Student {
+			
+			@ManyToMany(mappedBy = "students")
+			private Set<Course> courses;
+		}
+		
+		Many Side:- 
+			public class Course {
+
+			@ManyToMany
+			@JoinTable(
+				name = "student_course",
+				joinColumns = @JoinColumn(name = "course_id"),
+				inverseJoinColumns = @JoinColumn(name = "student_id")
+			)
+			private Set<Student> students;
+		}
+	
+Use of the properties used in the mapping (@OneToOne/@OneToMany/@ManyToOne/@ManyToMany) annotation: 
+	cascade - 
+	mappedBy -
+	
+@JoinColumn: The @JoinColumn annotation in Spring Boot JPA is used to specify the column that is responsible for storing the foreign key value that establishes the relationship between two entities
+The @JoinColumn annotation can be used to specify the following properties:
+	- name: The name of the column in the database table that stores the foreign key value.
+	- referencedColumnName: The name of the column in the referenced database table that stores the primary key value.
+	- nullable: Whether the column is nullable.
+	- insertable: Whether the column is insertable.
+	- updatable: Whether the column is updatable.
