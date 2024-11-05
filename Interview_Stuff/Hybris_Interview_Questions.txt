@@ -208,4 +208,156 @@ https://www.expertshybris.com/hybris-tutorial/hybris-data-model
 178. how to migrate the version of hybris 
 
 
+########## hybris VVI Question for Abroad interview ##############
+
+
+how to create a new model object?
+	>pk will be assigned
+	>default values will be given
+	>saveall will work as its in context
+items.xml
+architecture of hybris
+convertor and populator
+how to add new enumtype and show in PDP
+overview of MVC in hybris
+flexible search query
+how to add a new component in hybris?
+how to add a new paragraph component in a jsp?
+remaining normal questions
+=============================================================
+backoffice
+customization what you have done?
+how zk framework works?
+how to add a new tree structure in hybris?
+how widget works in hybris?
+
+solr
+why we use solr in hybris?
+how to add a new indexed property?
+what is one way and 2 way in solr?
+
+Caching?
+how to add a new cache region in hybris?
+=============================================================
+
+Datahub
+how can we use datahub?
+is it necessary that the datahub can only works in sap system? what if any other third party is thr? will it work?
+basic knowledge of 3 formats of datahub?
+
+webservices
+just what you know about rest or soap in hybris
+how data  will come from SAP system and saved in hybris using rest or soap? normal flow
+
+
+java
+equals and hashcode method?
+map internal working for put and get methods?
+hashset and hashtree
+interface and abstract difference?
+encapsulation?
+design patterns? tell him only what u r sure and what u know? he will ask questions from them only like singleton,factory,abstarct factory,fly weight etc
+he may ask question like can you tell me how to write a singleton class?
+how to sort a list? using collection class 
+what are comparator and comparable classes? where we use them?
+
+spring
+different scopes? yu should know each of them and how it works where we can use them?
+autorwired,requestmapping meaning?
+how flow goes from jsp to controller means MVC flow?
+
+servlet
+bydefualt hybris is singleton, how can we make it as multi-instance?
+life cycle of servlet---init,service,destroy?
+how destroy method works in servlet?
+what are the methods available in service method? dopost,get put delete etc
+differene between post and get?
+
+JSP
+jsp:include,jsp:action how it works in jsp?
+lifecycle of jsp?
+
+SQL
+different types of joins in sql?
+
+
+
+NOTE: He may ask question in hibernate and struts? i said i have not worked on all this as i was working on GWT which is totally based on core java.after that
+I started working hybris and spring for the first time in wipro.
+
+
+Load phase		>>> Composiion Phase >>>	Publication Phase
+
+
+JDBC
+SOLR
+Rest SOAP
+Design Patterns
+Joins
+
+Order flow
+Strategies
+
+Usha Martin Question 
+
+Core java:
+1)Exception handling, Exceptions Hierarchy .
+2)Collection framework with all its interfaces and implementation classes
+3)Difference between Abstract class and interface
+4)Difference between String and Stringbuffer
+5)Serialization
+6)Static keyword
+7)Access modifiers
+ 
+Hybris:
+ 
+1)items.xml all attributes including typecode, what is use of typecode.
+2)what is use of collectiontype and relation type which one is better?which one should use in which
+scenario?
+3)where did you use atomic type?
+4)All interceptors.
+5)Caching?what are the regions?when caching will be invalidate?
+6)Questions from nodes?
+7)promotions and vouchers.
+8)wcms framework?how to create one single page with different slot without using and
+pagetemplate?where will we write position for all the slots?
+9)events and listeners?
+10)questions from cockpits?csCockpit.
+11)cronjob?why are we saving trigger and cronjob in impexes.
+12)questions from order management and consignements.
+13)  Item.xml (data Modeling) all the attributes and items
+14) Interceptors
+15)Dynamic Attribute
+16) Flexisearch
+
+
+NTTDATA Question :
+what are the Security available in hybris and how to do that .
+Diff store and site 
+What is base store , what are the things comes under t it.
+How will u create base store.
+How the Navigation bar has implemented.
+What are the scops available in hybris. 
+What is jalo session Jalosession ,what is the use of it . 
+
+
+Other 
+
+1. Name the service required to fetch the data from DB.
+2. How to count the no of hits by the user in website  if the that is Lagacy project in servelet and Jsp.
+3. how to get particuler  element from list without iterate again and again.(Reduse the performence)
+1 .what is collection type
+1.1. Table will be created for Collection or not .
+2. what is relation type
+3. Batch2Student Relation in this relation how the table structure will be organised,How many
+tables will be create and what are those .
+3.1. Relation Table will be created Separate or not.
+3.2. what will be there inside that
+4. steps to write the cronJob ,which file need an entry .
+4.1. what is requirement to create the cronjob and what will happen if we create it .
+5.can we provide deployment table for collection and Relation type
+
+
+
+
 
