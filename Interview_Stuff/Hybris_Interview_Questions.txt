@@ -316,14 +316,14 @@ Hybris:
 scenario?
 3)where did you use atomic type?
 4)All interceptors.
-5)Caching?what are the regions?when caching will be invalidate?
+5)Caching? What are the regions? When caching will be invalidate?
 6)Questions from nodes?
 7)promotions and vouchers.
-8)wcms framework?how to create one single page with different slot without using and
-pagetemplate?where will we write position for all the slots?
+8)wcms framework? How to create one single page with different slot without using and
+pagetemplate? where will we write position for all the slots?
 9)events and listeners?
-10)questions from cockpits?csCockpit.
-11)cronjob?why are we saving trigger and cronjob in impexes.
+10)questions from cockpits/cscockpit.
+11)cronjob? Why are we saving trigger and cronjob in impex's.
 12)questions from order management and consignements.
 13)  Item.xml (data Modeling) all the attributes and items
 14) Interceptors
@@ -338,22 +338,35 @@ What is base store , what are the things comes under t it.
 How will u create base store.
 How the Navigation bar has implemented.
 What are the scops available in hybris. 
-What is jalo session Jalosession ,what is the use of it . 
+What is jalo session Jal session ,what is the use of it . 
 
+EPAM Questions:
+
+How all node will be in sync.
+How to optimize the sql query performance
+How to handle if item attribute is changed to string to double and it has the data in it. 
+How add in collection with append mode if it is string. Ex Pushpendra already exist want to append Pushpendra Tripathi 
+How to make solr for multi region. which can support multiple language.
+How can you create action on Backoffice customization 
+How to add Populator to existing convertor
+What is the difference inject Mock and Mock
+How to achieve Retry mechanism in business process. 
+Have you done client side caching. How to do that.
+ 
 
 Other 
 
 1. Name the service required to fetch the data from DB.
-2. How to count the no of hits by the user in website  if the that is Lagacy project in servelet and Jsp.
-3. how to get particuler  element from list without iterate again and again.(Reduse the performence)
+2. How to count the no of hits by the user in website  if the that is Legacy project in servlet and Jsp.
+3. how to get particular  element from list without iterate again and again.(Reduce the performance)
 1 .what is collection type
 1.1. Table will be created for Collection or not .
 2. what is relation type
-3. Batch2Student Relation in this relation how the table structure will be organised,How many
+3. Batch2Student Relation in this relation how the table structure will be organized, How many
 tables will be create and what are those .
 3.1. Relation Table will be created Separate or not.
 3.2. what will be there inside that
-4. steps to write the cronJob ,which file need an entry .
+4. steps to write the cronjob ,which file need an entry .
 4.1. what is requirement to create the cronjob and what will happen if we create it .
 5.can we provide deployment table for collection and Relation type
 
