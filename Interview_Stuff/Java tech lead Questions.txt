@@ -1,3 +1,7 @@
+===================================================================
+==============================Syncron==============================
+===================================================================
+
 1. Kindly give brief idea about JAVA memory model.
 2. What is the difference between normal REST service and Restful WS (Web Service)?
 3. What are the different types of Http methods and their differences ?
@@ -71,3 +75,16 @@ public class CodingProblem13 {
   return stack.isEmpty()  ? "Balanced" : "Not Balanced ";
  }
 }
+
+
+===================================================================
+============================IBS Software===========================
+===================================================================
+31. what is the Builder design pattern and its drawback.
+32. How database indexing works internally. 
+33. How Caching works internally. which data structure uses.
+34. Thread concept like joining the thread and its concept.
+35. Microservices frameworks like springboot. what are the others frameworks available.
+36. Thread works well with which type of objects
+37. what is object immutable and write a program to for object immutable.
+38. 
