@@ -1,0 +1,54 @@
+###Work Areas###
+
+###  Worked On  ###
+1. Data modeling 
+2.  Solr Search 
+         - Adding Attribute to solr and display in frontend
+         - Worked on indexing 
+         - worked with provider and resolver 
+         - worked on facet
+3. Page Configuration with WCMS
+          - Template creation 
+          - page creation ,
+          - component creation
+4. Shopping Cart 
+5. Checkout Page Customization 
+          - MultiStepcheckout process  added/Remove checkout process
+6. Payment Page
+           - Make  cronjob to hit the third party API Call to Convert the Temp   Order to Normal Order on the basis of Payment provider response
+           - introduced new payment method for many payment provider 
+7. Order Managment (newFullfilmentStep in order history page)
+          - NewFullfilmentStep in order history page
+8. Backoffice Customization
+9. Account and customers (Design and implemented as per Client)
+10. Integration (Punchout/Payment/TradeIn/HotFolder )
+            - Punchout
+            - Payment
+            - TradeIn
+            - HotFolder
+11. impexes Writing 
+12. Flexi search query
+13. Creating Cronjobs
+14. Business process/workflow
+15. Multiple site setup
+16. Event publicing 
+      - Starting the Business Process
+17. Restrictions
+        - Search restriction for backoffice for CS Agent to Ticket
+        - CMSrestriction country specific
+18. Intercepters
+
+###Challenges ###
+Backoffice customization :-
+    - Created text editor where it gives the flexibility to format the text 
+    - Disabling the fields on the basis of condition by using dynamic forms 
+    - 4 lakhs of data to be write in CSV File which hangs the system .
+      worked on performance. fetch all the data at once and while writting it      into CSV . split the data in bunch of 100 and look over it to write 100 data first.
+    - Drastically Reduce the data and cronjob execution time. Removed not nessasary data which is huge and writen a logice to avoide the data whose combination will be unused . redused from 15 Lakh of record to 2 lakh of valid record . and cronjob time redused from 1 hour to 20 min 
+
+Big Implementation:
+1. Favourite Product :-  Make use of wishlist OOB functionality where PLP page is divided into 2 section (favourite and non favourite products). single hit to  solr server to fetch the product. Dividing section and maintain the order from UI.
+2. Trade-in implementation for samsung client for japan site 
+3. Migration of project from IBM webspare to hybris . mainly all existed  query or view  used in ibm webspare . we transform all the query in hybris understandable format . map it with hybris propertries and by taking query reference created all the query . 
+4. Created Navigation for entire project . 
+ 

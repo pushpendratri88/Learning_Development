@@ -280,15 +280,6 @@ lifecycle of jsp?
 SQL
 different types of joins in sql?
 
-
-
-NOTE: He may ask question in hibernate and struts? i said i have not worked on all this as i was working on GWT which is totally based on core java.after that
-I started working hybris and spring for the first time in wipro.
-
-
-Load phase		>>> Composiion Phase >>>	Publication Phase
-
-
 JDBC
 SOLR
 Rest SOAP
