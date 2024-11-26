@@ -1,0 +1,25 @@
+These design patterns can make a big difference in both interviews and real-world software development.
+Here’s a list of 22 essential design patterns with resources to help you dive in and start learning:
+
+1. Factory Method Design Pattern : https://lnkd.in/dpSkEaJi
+2. Abstract Factory Method Design Pattern: https://lnkd.in/dKUFXVBb
+3. Singleton Design Pattern: https://lnkd.in/d6AJWCAn
+4. Prototype Design Pattern : https://lnkd.in/dJhAddCt
+5. Builder Design Pattern: https://lnkd.in/dwsbW2Ux
+6. Adapter Design Pattern: https://lnkd.in/dKQpsTfe
+7. Bridge Design Pattern: https://lnkd.in/dgywVRVF
+8. Composite Design Pattern: https://lnkd.in/d9BDs_8Y
+9. Decorator Design Pattern: https://lnkd.in/dXUzEhqW
+10. Facade Design Pattern: https://lnkd.in/dHtm5SKk
+11. Flyweight Design Pattern: https://lnkd.in/dSC87Xc5
+12. Proxy Design Pattern: https://lnkd.in/d5N_rfBV
+13. Chain of Responsibility Design Pattern: https://lnkd.in/dVEJX3Ug
+14. Command Design Pattern: https://lnkd.in/dJg6xye6
+15. Interpreter Design Pattern: https://lnkd.in/ddz9CsdV
+16. Mediator Design Pattern: https://lnkd.in/d6yjwQNV
+17. Memento Design Pattern: https://lnkd.in/d6zJZsr3
+18. Observer Design Pattern: https://lnkd.in/dyupuqJ8
+19. State Design Pattern: https://lnkd.in/dxGcWQmd
+20. Strategy Design Pattern: https://lnkd.in/d9dz8ER7
+21. Template Method Design Pattern: https://lnkd.in/d6DAcTDh
+22. Visitor Design Pattern: https://lnkd.in/dQ642JuQ

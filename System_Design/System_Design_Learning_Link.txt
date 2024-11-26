@@ -1,94 +1,75 @@
 No matter the scale, these topics come into play each time. Prepare these well. 
 
-- Checksum
-↳https://lnkd.in/gJnJpnRF
+- Checksum : https://lnkd.in/gJnJpnRF
 
-- CAP Theorem
-↳https://lnkd.in/gjtcJxeN
+- CAP Theorem : https://lnkd.in/gjtcJxeN
 
-- SQL vs NoSQL
-↳https://lnkd.in/gwCe58TU
+- SQL vs NoSQL : https://lnkd.in/gwCe58TU
 
-- Circuit Breaker
-↳https://lnkd.in/gvSrR_EA
+- Circuit Breaker : https://lnkd.in/gvSrR_EA
 
-- Load Balancing
-↳https://lnkd.in/gefSiXEJ
+- Load Balancing : https://lnkd.in/gefSiXEJ
 
-- Fault Tolerance
-↳https://lnkd.in/guiDtdXT
+- Fault Tolerance : https://lnkd.in/guiDtdXT
 
-- API Design
-↳https://lnkd.in/g6tHgXr7
+- API Design : https://lnkd.in/g6tHgXr7
 
-- WebSockets
-↳https://lnkd.in/gzdAdBNC
+- WebSockets : https://lnkd.in/gzdAdBNC
 
-- API Gateway
-↳https://lnkd.in/gWYGxs3S
+- API Gateway : https://lnkd.in/gWYGxs3S
 
-- Failover
-↳https://lnkd.in/g-eH-Pvf
+- Failover : https://lnkd.in/g-eH-Pvf
 
-- Caching
-↳https://lnkd.in/gAp-9udf
+- Caching : https://lnkd.in/gAp-9udf
 
-- Scalability
-↳https://lnkd.in/gHUfp8x9
+- Scalability : https://lnkd.in/gHUfp8x9
 
-- HeartBeat
-↳https://lnkd.in/gzfQt74b
+- HeartBeat : https://lnkd.in/gzfQt74b
 
-- Proxy Server
-↳https://lnkd.in/gs2ZF8_d
+- Proxy Server : https://lnkd.in/gs2ZF8_d
 
-- Bloom Filters
-↳https://lnkd.in/gnekDkQv
+- Bloom Filters : https://lnkd.in/gnekDkQv
 
-- REST vs RPC
-↳https://lnkd.in/gVGeh3VV
+- REST vs RPC : https://lnkd.in/gVGeh3VV
 
-- Idempotency
-↳https://lnkd.in/gqGnkZHg
+- Idempotency : https://lnkd.in/gqGnkZHg
 
-- Database Index
-↳https://lnkd.in/gE_q5m_g
+- Database Index : https://lnkd.in/gE_q5m_g
 
-- Data Replication
-↳https://lnkd.in/gPBmH5h8
+- Data Replication : https://lnkd.in/gPBmH5h8
 
-- Database Scaling
-↳https://lnkd.in/gX7AKQHY
+- Database Scaling: https://lnkd.in/gX7AKQHY
 
-- Data Redundancy
-↳https://lnkd.in/gccsuSvr
+- Data Redundancy : https://lnkd.in/gccsuSvr
 
-- Service Discovery
-↳https://lnkd.in/gEjBT8ZA
+- Service Discovery : https://lnkd.in/gEjBT8ZA
 
-- Disaster Recovery
-↳https://lnkd.in/gEYQ_74X
+- Disaster Recovery : https://lnkd.in/gEYQ_74X
 
-- ACID Transactions
-↳https://lnkd.in/g-sjsMwX
+- ACID Transactions : https://lnkd.in/g-sjsMwX
 
-- Database Sharding
-↳https://lnkd.in/gnuxe5pu
+- Database Sharding : https://lnkd.in/gnuxe5pu
 
-- Distributed Locking
-↳https://lnkd.in/gJrrrqsa
+- Distributed Locking : https://lnkd.in/gJrrrqsa
 
-- Consistent Hashing
-↳https://lnkd.in/gmrHsEzq
+- Consistent Hashing : https://lnkd.in/gmrHsEzq
 
-- Distributed Caching
-↳https://lnkd.in/gUH2yV-X
+- Distributed Caching : https://lnkd.in/gUH2yV-X
 
-- Consistency Patterns
-↳https://lnkd.in/gey7tqYh
+- Consistency Patterns : https://lnkd.in/gey7tqYh
 
-- Latency vs Throughput
-↳https://lnkd.in/gDAx6QQd
+- Latency vs Throughput : https://lnkd.in/gDAx6QQd
 
-- Serverless Architecture
-↳https://lnkd.in/gtS52Sza
+- Serverless Architecture : https://lnkd.in/gtS52Sza
+
+#########################################################
+
+1. Databases: https://lnkd.in/gtGRQpQi
+2. Horizontal vs Vertical Scaling: https://lnkd.in/g7y--BPq
+3. Load Balancing: https://lnkd.in/g5htBkrB
+4. SQL vs NoSQL: https://lnkd.in/gjrzmbS5
+5. Database Scaling: https://lnkd.in/g7yRbwsF
+6. Database Sharding: https://lnkd.in/gwucPJMY
+7. Message Queues: https://lnkd.in/g-nKJZwF
+8. LLD (Low Level Design) : https://lnkd.in/dHauHa8i
+9. Scalability: https://lnkd.in/dhNUZM2F
