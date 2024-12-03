@@ -87,4 +87,12 @@ public class CodingProblem13 {
 35. Microservices frameworks like springboot. what are the others frameworks available.
 36. Thread works well with which type of objects
 37. what is object immutable and write a program to for object immutable.
-38. 
+
+===================================================================
+============================Life Science ==========================
+===================================================================
+38. Get the list of emps with highest salary from all the departments 
+39. Find the 1/3 elements from Linked list 
+40. How many services present in application 
+41. What Authorization is used in system 
+42. Deployment structure in the project 
