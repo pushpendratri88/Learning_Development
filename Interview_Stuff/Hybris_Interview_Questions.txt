@@ -323,25 +323,25 @@ page template? where will we write position for all the slots?
 
 
 NTTDATA Question :
-what are the Security available in hybris and how to do that .
-Diff store and site 
-What is base store ,what are the things comes under it.
-How will u create base store.
-How the Navigation bar has implemented.
-What are the scops available in hybris. 
-What is jalo session,what is the use of it . 
+1. what are the Security available in hybris and how to do that .
+2. Diff store and site 
+3. What is base store ,what are the things comes under it.
+4. How will u create base store.
+5. How the Navigation bar has implemented.
+6. What are the scops available in hybris. 
+7. What is jalo session,what is the use of it . 
 
 EPAM Questions:
-How all node will be in sync.(Cluster Aware event)
-How to optimize the sql query performance
-How to handle if item attribute is changed to string to double and it has the data in it. 
-How to add string field with the help of impex using append modehow does it work if it "Pushpendra" already exist there and want to add field "Nandita" to the coloumn.
-How to make multi regional field in solr. which can support multiple language.
-How can you create action on Backoffice customization 
-How to add Populator to existing convertor
-What is the difference inject Mock and Mock
-How to achieve Retry mechanism in business process. 
-Have you done client side caching. How to do that.
+1. How all node will be in sync.(Cluster Aware event)
+2. How to optimize the sql query performance
+3. How to handle if item attribute is changed to string to double and it has the data in it. 
+4. How to add string field with the help of impex using append modehow does it work if it "Pushpendra" already exist there and want to add field "Nandita" to the coloumn.
+5. How to make multi regional field in solr. which can support multiple language.
+6. How can you create action on Backoffice customization 
+7. How to add Populator to existing convertor
+8. What is the difference inject Mock and Mock
+9. How to achieve Retry mechanism in business process. 
+10. Have you done client side caching. How to do that.
  
 
 Other 
@@ -357,8 +357,8 @@ Other
 8. Relation Table will be created Separate or not.what will be there inside the table.
 9. steps to write the cronjob ,which file need an entry .
 10. what is requirement to create the cronjob and what will happen if we create it .
-11.can we provide deployment table for collection and Relation type
-
+11. can we provide deployment table for collection and Relation type
+12. what if Product page taking time to load the page due to many media file being used in the page.
 
 
 

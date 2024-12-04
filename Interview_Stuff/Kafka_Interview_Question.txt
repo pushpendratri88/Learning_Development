@@ -41,11 +41,10 @@ Kafka interview questions :
 39. How does Kafka handle topic deletion?
 40. Explain commitSync() vs commitAsync() in Kafka consumers.
 
-41. How to handle if kafka send same event twice even if first request has been processed and completed.
+41. How to handle if kafka producer send same event twice even if first request has been processed and completed.
 42. How to track the failure logs for backtrack in saga choreography pattern.
 43. Why has KAFKA been used in the project? Explain the reason for choosing over other messaging queues.
 44. Consider a scenario where the connectivity from Kafka producer to broker fails? How do we handle it?
-45. Can two consumers subscribe to the same partition in topic?
-46. What if two consumers are from different consumer groups?
+45. Can two consumers subscribe to the same partition in topic? What if two consumers are from different consumer groups? What if one consumer already processed one event and now another consumer pick the same event to process it.
 47. How Kafka handles if a consumer goes down? 
 48. How does it ensure that the messages being processed by that consumer are not lost?
