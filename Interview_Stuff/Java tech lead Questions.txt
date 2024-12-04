@@ -96,3 +96,40 @@ public class CodingProblem13 {
 40. How many services present in application 
 41. What Authorization is used in system 
 42. Deployment structure in the project 
+
+===================================================================
+============================PepsiCo ==========================
+===================================================================
+43. Difference between Synchronized map and concurrent HashMap?
+44. What is try with resources?
+45. Explain custom exception handling in spring boot? 
+46. What are the new features introduced in Java 17? 
+47. What are the new features introduced in Spring 3.0?
+48. How to maintain properties for different environments in spring boot application? 
+49. Explain the CI/CD pipeline process used for deployment in your project?
+50. Explain any monitoring tools used for monitoring your application on production environment?
+51. Given a list of employees. Return a map with key as the first letter of the name and value as list of names starting with that letter.
+52. Given list of employees. Return a map of department names and number of employees in the department. 
+53. Given a list of students. Return the student having second rank in the class.
+54. Given list of employees with list of address. Return list where employees and their respective addresses are sorted based on employee and address ids.
+55. Given list of integers and target sum, return pair of integers whose sum is equal to target sum. Expected time complexity O(N). 
+56. Given an array of 0s and 1s. Sort the 0s to left side and 1s to right side in one traversal. Expected O(N)
+57. What is the need for microservices architecture. Monolithic v/s Microservices architecture. 
+58. What are the design patterns used in microservices.
+59. Explain service discovery and service registry design pattern. How the services are registered and invoked through service discovery.
+60. Discuss circuit breaker pattern, explain the use case, configurations provided. Deep dive into the circuit breaker behavior.
+70. Discuss Saga design pattern. Explain the choreography and orchestrator implementation. How transaction rollback is handled.
+71. Discuss rate limiter design pattern, use case where used.
+72. What are the problems with microservices.
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,8 +1,8 @@
 These design patterns can make a big difference in both interviews and real-world software development.
 Here’s a list of 22 essential design patterns with resources to help you dive in and start learning:
 
-1. Factory Method Design Pattern : https://lnkd.in/dpSkEaJi
-2. Abstract Factory Method Design Pattern: https://lnkd.in/dKUFXVBb
+1. Factory Method Design Pattern : https://www.geeksforgeeks.org/factory-method-design-pattern-in-java/
+2. Abstract Factory Method Design Pattern: https://refactoring.guru/design-patterns/abstract-factory
 3. Singleton Design Pattern: https://lnkd.in/d6AJWCAn
 4. Prototype Design Pattern : https://lnkd.in/dJhAddCt
 5. Builder Design Pattern: https://lnkd.in/dwsbW2Ux
