@@ -1,0 +1,41 @@
+### EComm Modules Exposer  ###
+1. Data modeling 
+2. Search 
+3. 
+4. Shopping Cart 
+5. Checkout process 
+6. Payment Page
+           - Make  cronjob to hit the third party API Call to Convert the Temp   Order to Normal Order on the basis of Payment provider response
+           - introduced new payment method for many payment provider 
+7. Order Managment (newFullfilmentStep in order history page)
+          - NewFullfilmentStep in order history page
+8. 
+9. Account and customers 
+10. Integration (Punchout/Payment/TradeIn/HotFolder )
+            - Punchout
+            - Payment
+            - TradeIn
+            - 
+11. 
+12. SQL query
+13. Creating Cronjobs
+14. Business process
+15. 
+16. Event publicing 
+      - Starting the Business Process
+17. 
+18. 
+
+###Challenges ###
+Backoffice customization :-
+   
+    - 4 lakhs of data to be write in CSV File which hangs the system.Worked on performance to fetch all the data at once and while writting it into CSV file. Split the data in bunch of 100 and look over it to write 100 data first.
+	
+    - Drastically Reduce the data and cronjob execution time. Removed invalid Combination of data which is huge in size and writen a logic to avoide invalid data whose combination will be unused . redused from 15 Lakh of record to 2 lakh of valid record and cronjob time redused from 1 hour to 20 min 
+
+Big Implementation:
+1. Challenges for API Calls
+2. Trade-in implementation for samsung client for japan site 
+3. 
+4. 
+ 

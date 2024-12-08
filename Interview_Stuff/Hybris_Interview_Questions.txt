@@ -341,7 +341,7 @@ EPAM Questions:
 7. How to add Populator to existing convertor
 8. What is the difference inject Mock and Mock
 9. How to achieve Retry mechanism in business process. 
-10. Have you done client side caching. How to do that.
+10.How to do client side caching.
  
 
 Other 
